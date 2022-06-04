@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/css/bootstrap.min.css">
+        <title>Post</title>
+    </head>
+    <body>
+
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-12 col-md-6 offset-0 offset-md-3">
+                    <div  class="card shadow shadow-lg border">
+                        <div class="card-body">
+                            <form action="#" method="POST">
+                                <div class="mb-3 row">
+                                    <label for="post" class="col-form-label
+                                        col-12">Enter Your Content</label>
+                                    <div class="col-12">
+                                        <textarea class="form-control"
+                                            name="post" id="post" cols="30"
+                                            rows="3"></textarea>
+                                    </div>
+                                    <div class="text-end mt-3">
+                                        <button id="postbtn" class="btn
+                                            btn-success btn-sm">Post</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row mt-3">
+            <div id="postscontainer" class="col-12 col-md-6 offset-0 offset-md-3" >
+                <div id="post-xx" class="card shadow shadow-lg border mt-3">
+                    <div class="card-body">
+                
+                      <button id="postDeleteBtn-xx" class="btn btn-danger btn=sm float-end">Delete</button>
+                      <p class="text-start m-0 card-text">
+                          Lorem, ipsum dolor.
+                      </p>
+                      <hr>
+                     
+                      <p class="text-muted m-0 small fat-ltalic">
+                    date
+                      </p>
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="post.js"></script>
+    </body>
+</html>
